@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Harian</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Berita Harian</h1>
+        <p>Berita Terkini dan Terpercaya</p>
+    </header>
+    <main>
+        <section class="headline">
+            <h2>Judul Utama Hari Ini</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </section>
+        <section class="columns">
+            <article onclick="openArticle('article1')">
+                <img src="path/to/image1.jpg" alt="Gambar Berita 1">
+                <h3>Berita 1</h3>
+                <p>Ringkasan singkat berita 1...</p>
+            </article>
+            <article onclick="openArticle('article2')">
+                <img src="path/to/image2.jpg" alt="Gambar Berita 2">
+                <h3>Berita 2</h3>
+                <p>Ringkasan singkat berita 2...</p>
+            </article>
+            <article onclick="openArticle('article3')">
+                <img src="path/to/image3.jpg" alt="Gambar Berita 3">
+                <h3>Berita 3</h3>
+                <p>Ringkasan singkat berita 3...</p>
+            </article>
+            <article onclick="openArticle('article4')">
+                <img src="path/to/image4.jpg" alt="Gambar Berita 4">
+                <h3>Berita 4</h3>
+                <p>Ringkasan singkat berita 4...</p>
+            </article>
+            <article onclick="openArticle('article5')">
+                <img src="path/to/image5.jpg" alt="Gambar Berita 5">
+                <h3>Berita 5</h3>
+                <p>Ringkasan singkat berita 5...</p>
+            </article>
+            <article onclick="openArticle('article6')">
+                <img src="path/to/image6.jpg" alt="Gambar Berita 6">
+                <h3>Berita 6</h3>
+                <p>Ringkasan singkat berita 6...</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Detail Berita -->
+    <section id="article1" class="article-detail">
+        <h2>Judul Berita 1</h2>
+        <img src="path/to/image1.jpg" alt="Gambar Berita 1">
+        <p>Konten lengkap berita 1...</p>
+        <button onclick="closeArticle()">Kembali</button>
+    </section>
+    <section id="article2" class="article-detail">
+        <h2>Judul Berita 2</h2>
+        <img src="path/to/image2.jpg" alt="Gambar Berita 2">
+        <p>Konten lengkap berita 2...</p>
+        <button onclick="closeArticle()">Kembali</button>
+    </section>
+    <section id="article3" class="article-detail">
+        <h2>Judul Berita 3</h2>
+        <img src="path/to/image3.jpg" alt="Gambar Berita 3">
+        <p>Konten lengkap berita 3...</p>
+        <button onclick="closeArticle()">Kembali</button>
+    </section>
+    <section id="article4" class="article-detail">
+        <h2>Judul Berita 4</h2>
+        <img src="path/to/image4.jpg" alt="Gambar Berita 4">
+        <p>Konten lengkap berita 4...</p>
+        <button onclick="closeArticle()">Kembali</button>
+    </section>
+    <section id="article5" class="article-detail">
+        <h2>Judul Berita 5</h2>
+        <img src="path/to/image5.jpg" alt="Gambar Berita 5">
+        <p>Konten lengkap berita 5...</p>
+        <button onclick="closeArticle()">Kembali</button>
+    </section>
+    <section id="article6" class="article-detail">
+        <h2>Judul Berita 6</h2>
+        <img src="path/to/image6.jpg" alt="Gambar Berita 6">
+        <p>Konten lengkap berita 6...</p>
+        <button onclick="closeArticle()">Kembali</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Berita Harian. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
